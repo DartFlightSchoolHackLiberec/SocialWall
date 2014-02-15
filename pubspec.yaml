@@ -1,4 +1,7 @@
 name: SocialWall
 description: A sample application
 dependencies:
+  browser: any
+  http: any
   json_client: any
+  unittest: any

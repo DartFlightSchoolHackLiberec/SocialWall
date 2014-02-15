@@ -6,7 +6,7 @@
  * author: Vladimir Belohradsky
  * author: Marek Beniak
  * author: Martin Humpal 
- * version: 0.0.1
+ * version: 0.0.2
  */
 
 import 'dart:core';
@@ -14,7 +14,12 @@ import 'dart:core';
 import 'models/Config.dart';
 import 'controllers/AggregatorController.dart';
 
+AggregatorController ctrl;
+
 void main() {
-  Config config = new Config('config.json');
-  AggregatorController ctrl = new AggregatorController(config);
+  ctrl = new AggregatorController(new Config('../../config.json', ready));
+}
+
+void ready() {
+  ctrl.run();
 }

@@ -6,39 +6,25 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
   </head>
   <body>   
-    <script type="application/dart" src="WallView.dart"></script>
+    <script type="application/dart" src="../../SocialWall.dart"></script>
     <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
     <script src="packages/browser/dart.js"></script>
     <h1>Social wall</h1>
-		<div class="progress progress-striped active">
+		<!--<div class="progress progress-striped active">
         	<div class="progress-bar" style="width: 45%"></div>
-    	</div>
-		<div class="row social-list">
+    	</div>-->
+		<div class="row social-list" id="posts">
 			<!-- post -->
-			<h2>post #1</h2>
-			<blockquote class="clearfix">
+      <div class="post-template">
+			 <h2>post #1</h2>
+			 <blockquote class="clearfix">
 				<p>
 					<a href="#" title="#gdgslc">#gdgslc</a> lorempisum
 				</p>
 				<small>posted by @humitch</small>
-			</blockquote>
-			<!-- post -->
-			<h2>post #2</h2>
-			<blockquote class="clearfix">
-				<p>
-					ipsum dolor sit amet <a href="#123" title="#123">#123</a> consectetur adipiscing elit. Phasellus ultricies, metus sed malesuada <a href="@semper" title="@semper">@semper</a>, nunc nisl ornare nunc, vel condimentum odio neque a nibh	
-				</p>
-				<small>posted by @humitch</small>
-			</blockquote>
-			<!-- post -->
-			<h2>post #3</h2>
-			<blockquote class="clearfix">
-				<p>
-					<img src="http://img145.imageshack.us/img145/2886/aasdasd1jk8fa.jpg" alt="http://img145.imageshack.us/img145/2886/aasdasd1jk8fa.jpg" />
-					<a href="#aushdiuahsd" title="#aushdiuahsd">#aushdiuahsd</a> ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies, metus sed malesuada <a href="@popoka" title="@popoka">@popoka</a>, nunc nisl ornare nunc, vel condimentum odio neque a nibh	
-				</p>
-				<small>posted by @humitch</small>
-			</blockquote>
+			 </blockquote>
+      </div>
+			<!-- /post -->
 		</div>
   </body>
 </html>

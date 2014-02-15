@@ -1,3 +1,6 @@
 {
-  feeds:[]
+  "nPostsPerScreen": 10,
+  "feeds": [
+
+  ]
 }
