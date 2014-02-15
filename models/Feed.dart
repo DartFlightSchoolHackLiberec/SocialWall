@@ -10,5 +10,8 @@ import 'dart:core';
 
 abstract class Feed
 {
+  List posts;
+  Map configuration;
   
+  Feed(this.configuration);
 }
