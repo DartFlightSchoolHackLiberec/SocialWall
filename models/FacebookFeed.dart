@@ -1,5 +1,5 @@
 
-library socialwall.feed.facebookfeed;
+library socialwall.models.feed.facebookfeed;
 
 import 'dart:core';
 import 'Feed.dart';

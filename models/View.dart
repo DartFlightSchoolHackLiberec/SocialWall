@@ -1,5 +1,5 @@
 
-library socialwall.view;
+library socialwall.models.view;
 
 import 'dart:core';
 

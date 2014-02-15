@@ -4,7 +4,7 @@
  * author: Vladimir Belohradsky
  */
 
-library socialwall.feed;
+library socialwall.models.feed;
 
 import 'dart:core';
 

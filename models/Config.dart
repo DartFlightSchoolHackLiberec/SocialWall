@@ -1,5 +1,5 @@
 
-library socialwall.config;
+library socialwall.models.config;
 
 import 'dart:core';
 

@@ -1,5 +1,5 @@
 
-library socialwall.view.wallview;
+library socialwall.views.view.wallview;
 
 import 'dart:core';
 import 'dart:html';

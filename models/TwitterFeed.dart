@@ -1,5 +1,5 @@
 
-library socialwall.feed.twitter;
+library socialwall.models.feed.twitter;
 
 import 'dart:core';
 import 'Feed.dart';
