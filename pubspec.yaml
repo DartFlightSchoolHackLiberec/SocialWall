@@ -1,0 +1,4 @@
+name: SocialWall
+description: A sample application
+dependencies:
+  json_client: any
